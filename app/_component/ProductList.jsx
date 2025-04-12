@@ -5,7 +5,7 @@ import { getGroceryItems } from "../FirebaseAPI";
 
 function ProductList({selectedCat}) {
   const [items, setItems] = useState([]);
-
+//comment
   useEffect(() => {
     getGroceryItems().then(setItems);
   }, []);
